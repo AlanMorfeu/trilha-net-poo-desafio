@@ -41,7 +41,7 @@ Console.WriteLine("[2] " + celular[1]);
 Console.WriteLine();
 Console.Write("Digite sua opção: ");
 
-string aparelhoEscolhido = Console.ReadLine().ToUpper();
+string aparelhoEscolhido = Console.ReadLine();
 
 Smartphone smartphone;
 if (aparelhoEscolhido == "1")
